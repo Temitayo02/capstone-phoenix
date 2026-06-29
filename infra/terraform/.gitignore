@@ -1,0 +1,21 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Variables
+terraform.tfvars
+
+# Plan files
+*.tfplan
+
+# Sensitive files
+*.pem
+*.key
+
+# Environment
+.env
+
+# kubeconfig
+kubeconfig
